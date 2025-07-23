@@ -1,0 +1,54 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://picsum.photos/1200/800') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedor {
+  background-color: rgba(255, 255, 255, 0.85); 
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+
+.opcion {
+  margin-bottom: 20px;
+}
+
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}

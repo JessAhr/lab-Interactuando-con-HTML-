@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1>Carrito de Compras</h1>
+
+    <div class="productos">
+         <div class="producto">
+         <img src="imag/29.png" alt="Producto A">
+         <h3>Ramo Rosas</h3>
+          Precio: $<span>15</span><br>
+         <button onclick="agregarAlCarrito('Producto A', 15)">Agregar al carrito</button>
+        </div>
+
+
+        <div class="producto">
+          <img src="imag/76.png" alt="Producto B">
+          <h3>Caja Sorpresa</h3>
+         Precio: $<span>20</span><br>
+         <button onclick="agregarAlCarrito('Producto B', 20)">Agregar al carrito</button>
+       </div>
+
+       <div class="producto">
+         <img src="imag/84.png" alt="Producto C">
+         <h3>Ramo con peluche</h3>
+          Precio: $<span>25</span><br>
+         <button onclick="agregarAlCarrito('Producto C', 25)">Agregar al carrito</button>
+       </div>
+  </div>
+  
+    <hr>
+
+    <p><strong>Total de ítems:</strong> <span id="total-items">0</span></p>
+    <p><strong>Total a pagar:</strong> $<span id="total-precio">0</span></p>
+
+    <button class="vaciar" onclick="vaciarCarrito()">Vaciar carrito</button>
+  
+
+</div>
+
+   
+
+  <script src="script.js"></script>
+</body>
+</html>
